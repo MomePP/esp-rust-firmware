@@ -1,0 +1,11 @@
+[package]
+name = "esp-rust-firmware"
+edition = "2021"
+version = "0.1.0"
+
+[lib]
+path = "src/lib.rs"
+name = "esp_rust_firmware"
+edition = "2021"
+crate-type = ["staticlib"]
+required-features = []
